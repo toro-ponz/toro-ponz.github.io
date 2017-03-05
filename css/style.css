@@ -1,0 +1,424 @@
+html {
+  height: 100%;
+  overflow-y: scroll;
+}
+
+body {
+  font-family: 游ゴシック体, 'Yu Gothic', YuGothic, 'ヒラギノ角ゴシック Pro', 'Hiragino Kaku Gothic Pro', メイリオ, Meiryo, Osaka, 'ＭＳ Ｐゴシック', 'MS PGothic', sans-serif;
+  color: black;
+  background-color: #F0F0F0;
+  width: 100%;
+  min-height: 100%;
+  height: auto !important;
+  height: 100%;
+  position: relative;
+  margin: 0 auto;
+  padding: 0;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-text-size-adjust: 100%;
+  text-align: justify;
+  text-justify: inter-ideograph;
+}
+
+a {
+  text-decoration: none;
+  color: #2040FF;
+}
+
+a:visited {
+  text-decoration: none;
+  color: #2040FF;
+}
+
+img {
+  max-width: 100%;
+  vertical-align: bottom;
+  height: auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0 0 10 0;
+  padding: 0 10px;
+}
+
+h2 {
+  border-bottom: 5px solid deepskyblue;
+}
+
+h3 {
+  border-bottom: 4px solid deepskyblue;
+}
+
+h4 {
+  border-bottom: 3px solid deepskyblue;
+}
+
+#header {
+  background-color: deeppink;
+}
+
+#header-image {
+  position: relative;
+  overflow: hidden;
+}
+
+#title {
+  width: 100%;
+  height: 80px;
+  max-height: 80px;
+  margin: auto;
+  position: absolute;
+  top: 50px;
+  padding: 0;
+  text-align: center;
+}
+
+#title span,
+#title p {
+  color: white;
+  text-shadow: gray 1px 1px 0px, gray -1px 1px 0px, gray 1px -1px 0px, gray -1px -1px 0px;
+}
+
+#menu-btn {
+  display: none;
+}
+
+#menu {
+  font-weight: bold;
+  width: 1128px;
+  margin: 0 auto;
+  padding: 0;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+#menu ul {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+#menu ul li {
+  width: 20%;
+  margin: 0;
+  padding: 0;
+  border-color: lightgray;
+  border-style: solid;
+  border-width: 0px 1px 1px 1px;
+  background-color: white;
+  box-sizing: border-box;
+  float: left;
+}
+
+#menu ul li a {
+  display: block;
+  width: 100%;
+  height: 35px;
+  line-height: 35px;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  color: black;
+  text-align: center;
+  font-size: 14px;
+  border-color: deepskyblue;
+  border-style: solid;
+  border-width: 0 0 5px 0;
+  background-color: white;
+  box-sizing: border-box;
+}
+
+#menu ul li a:hover {
+  margin: 0;
+  padding: 0;
+  border-color: white;
+  background-color: deepskyblue;
+}
+
+#contents {
+  width: 1150px;
+  margin: 0 auto;
+  padding-bottom: 50px;
+}
+
+#content {
+  background-color: white;
+  width: 73%;
+  margin: 2% 1%;
+  padding: 0 20px;
+  float: left;
+  box-sizing: border-box;
+  border: 1px lightgray solid;
+  border-radius: 5px;
+}
+
+#sidebar {
+  width: 23%;
+  height: 100%;
+  margin: 2% 1%;
+  float: left;
+}
+
+#pagetop {
+  display: none;
+  position: fixed;
+  bottom: 15px;
+  right: 15px;
+  z-index: 100;
+}
+
+#pagetop a {
+  display: block;
+  background: deepskyblue;
+  width: 50px;
+  height: 50px;
+  border-radius: 28px;
+  cursor: pointer;
+  color: white;
+  border-style: solid;
+  line-height: 50px;
+  text-decoration: none;
+  text-align: center;
+}
+
+#pagetop a:hover {
+  display: block;
+  background: white;
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+  color: deepskyblue;
+  line-height: 50px;
+  text-decoration: none;
+  text-align: center;
+}
+
+div.clear {
+  clear: both;
+}
+
+#footer {
+  width: 100%;
+  margin: 0 auto;
+  bottom: 0;
+  position: absolute;
+  border-top: 1px solid lightgray;
+  border-bottom: 5px solid deepskyblue;
+}
+
+#copyright {
+  height: 50px;
+  line-height: 50px;
+  margin: 0;
+  text-align: center;
+  background-color: white;
+}
+
+.emphasis-red {
+  font-weight: bold;
+  color: red;
+}
+
+.emphasis-orange {
+  color: orange;
+}
+
+#informations p {
+  font-weight: bold;
+  margin: 0;
+  color: orange;
+}
+
+#updates p {
+  font-weight: bold;
+  margin: 0;
+  color: red;
+}
+
+.entry-date {
+  font-weight: bold;
+  margin: 0 auto;
+}
+
+.entry-content {
+  padding-left: 10px;
+}
+
+.entry-content p {
+  margin-top: 0;
+}
+
+#prof {
+  text-align: center;
+  margin: 0 auto;
+}
+
+#prof img {
+  box-sizing: border-box;
+  border: 1px lightgray solid;
+  border-radius: 25px;
+}
+
+.github-widget h3 {
+  border-color: lightgray;
+}
+
+@media screen and (min-width: 1151px) {
+  html {
+    font-size: 75%;
+  }
+  body {
+    font-size: 14px;
+    font-size: 1.4rem;
+  }
+  #header-image {
+    max-height: 400px;
+  }
+  #title span {
+    line-height: 80px;
+    font-size: 35px;
+    font-size: 3.5rem;
+  }
+  #menu {
+    display: block;
+    width: 1128px;
+    height: 30%;
+    margin: 0 auto;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  #menu ul {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  #menu ul li {
+    width: 20%;
+    margin: 0;
+    padding: 0;
+    float: left;
+  }
+  #menu ul li a {
+    display: block;
+    width: 100%;
+    height: 35px;
+    line-height: 35px;
+    font-size: 14px;
+  }
+  #sidebar {
+    display: inline;
+  }
+}
+
+@media screen and (min-width: 641px) and (max-width: 1150px) {
+  html {
+    font-size: 75%;
+  }
+  body {
+    font-size: 14px;
+    font-size: 1.4rem;
+  }
+  #header {
+    width: 100%;
+  }
+  #header-image {
+    max-height: 400px;
+  }
+  #title {
+    width: 100%;
+  }
+  #title span {
+    line-height: 80px;
+    font-size: 35px;
+    font-size: 3.5rem;
+  }
+  #menu {
+    display: block;
+    width: 100%;
+  }
+  #contents {
+    width: 100%;
+  }
+  #content {
+    width: 98%;
+  }
+  #prof {
+    width: 100%;
+  }
+  #sidebar {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  html {
+    font-size: 62.5%;
+  }
+  body {
+    width: 100%;
+    font-size: 14px;
+    font-size: 1.4rem;
+  }
+  #header {
+    width: 100%;
+  }
+  #header-image {
+    max-height: 250px;
+  }
+  #title {
+    width: 100%;
+    height: 50px;
+  }
+  #title img {
+    width: auto;
+    max-height: 50px;
+  }
+  #title span {
+    line-height: 50px;
+    font-size: 25px;
+    font-size: 2.5rem;
+  }
+  #menu-btn {
+    display: inline;
+    position: absolute;
+    right: 0px;
+  }
+  #menu {
+    display: none;
+    width: 100%;
+  }
+  #menu ul li {
+    width: 100%;
+    height: 40px;
+    float: clear;
+  }
+  #menu ul li a {
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    margin: 1px 0px;
+    font-size: 14px;
+  }
+  #contents {
+    width: 100%;
+  }
+  #content {
+    width: 98%;
+  }
+  #prof {
+    width: 100%;
+  }
+  #sidebar {
+    display: none;
+  }
+}
