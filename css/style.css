@@ -59,10 +59,6 @@ h4 {
   border-bottom: 3px solid deepskyblue;
 }
 
-#header {
-  background-color: deeppink;
-}
-
 #header-image {
   position: relative;
   overflow: hidden;
