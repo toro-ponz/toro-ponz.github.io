@@ -269,6 +269,10 @@ div.clear {
   border-color: lightgray;
 }
 
+#google-adsense-area {
+  text-align: center;
+}
+
 @media screen and (min-width: 1151px) {
   html {
     font-size: 75%;
@@ -354,7 +358,16 @@ div.clear {
     width: 100%;
   }
   #sidebar {
-    display: none;
+    width: 100%;
+    text-align: center;
+  }
+  #twitter-area {
+    width: 96%;
+    margin: 2% 1%;
+  }
+  #twitter-area iframe {
+    margin: 2% 0%;
+    max-width: 500px !important
   }
 }
 
@@ -417,6 +430,15 @@ div.clear {
     width: 100%;
   }
   #sidebar {
-    display: none;
+    width: 100%;
+    text-align: center;
+  }
+  #twitter-area {
+    width: 96%;
+    margin: 2% 1%;
+  }
+  #twitter-area iframe {
+    margin: 2% 0%;
+    max-width: 400px !important
   }
 }
